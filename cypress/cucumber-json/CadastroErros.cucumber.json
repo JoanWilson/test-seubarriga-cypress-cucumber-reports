@@ -1,0 +1,293 @@
+[
+  {
+    "description": "     Como usuário, desejo realizar um cadastro na plataforma \n     para conseguir realizar um Login e ter acesso as\n     funcionalidades da plataforma. Entretanto, preencho \n     de maneira errada os campos necessários",
+    "keyword": "Funcionalidade",
+    "name": "CadastroErros",
+    "line": 3,
+    "id": "cadastroerros",
+    "tags": [],
+    "uri": "CadastroErros.feature",
+    "elements": [
+      {
+        "id": "cadastroerros;realizar-cadastro-preenchendo-todos-os-campos-de-maneira-errada",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Realizar Cadastro preenchendo todos os campos de maneira errada",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 11,
+            "name": "que eu acesso a tela de Cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 2596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "preencho o primeiro campo com meu \"Joan\"",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 13,
+            "name": "preencho o segundo campo com meu \"joan@hotmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "preencho o terceiro campo com minha \"123\"",
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "aperto o botão cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 16,
+            "name": "recebo uma mensagem de confirmação \"Endereço de email já utilizado\"",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastroerros;realizar-cadastro-preenchendo-todos-os-campos-de-maneira-errada",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Realizar Cadastro preenchendo todos os campos de maneira errada",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 11,
+            "name": "que eu acesso a tela de Cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "preencho o primeiro campo com meu \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 13,
+            "name": "preencho o segundo campo com meu \"wilson@hotmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "preencho o terceiro campo com minha \"123\"",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "aperto o botão cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 16,
+            "name": "recebo uma mensagem de confirmação \"Nome é um campo obrigatório\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastroerros;realizar-cadastro-preenchendo-todos-os-campos-de-maneira-errada",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Realizar Cadastro preenchendo todos os campos de maneira errada",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 11,
+            "name": "que eu acesso a tela de Cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "preencho o primeiro campo com meu \"Joan\"",
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 13,
+            "name": "preencho o segundo campo com meu \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "preencho o terceiro campo com minha \"123\"",
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "aperto o botão cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 16,
+            "name": "recebo uma mensagem de confirmação \"Email é um campo obrigatório\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastroerros;realizar-cadastro-preenchendo-todos-os-campos-de-maneira-errada",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Realizar Cadastro preenchendo todos os campos de maneira errada",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 11,
+            "name": "que eu acesso a tela de Cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "preencho o primeiro campo com meu \"Joan\"",
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 13,
+            "name": "preencho o segundo campo com meu \"wilson@hotmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "preencho o terceiro campo com minha \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "aperto o botão cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 16,
+            "name": "recebo uma mensagem de confirmação \"Senha é um campo obrigatório\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
